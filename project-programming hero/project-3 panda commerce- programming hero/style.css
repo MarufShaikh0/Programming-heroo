@@ -1,0 +1,115 @@
+
+
+
+/* Shared Style Start */
+body header{
+    max-width: 1212px;
+    margin:50px auto;
+}
+
+.description{
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Shared Style End */
+
+/* Navbar Section Start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-input{
+    background-color: rgb(241, 241, 241);
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-input input{
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+.nav-input i{
+    color: rgb(186, 186, 186);
+}
+    
+/* Navbar Section End */
+
+/* banner section start  */
+.banner{
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    border-radius: 10px;
+    padding: 45px 60px;
+    margin-top: 50px;
+}
+.banner-content h2{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.banner-content h3{
+    color: rgb(255, 19, 111);
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-container{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    width: 140px;
+    padding: 15px 20px;
+    display: flex;
+    gap: 5px;
+    border-radius: 8px;
+    justify-content: center;
+    color: white;
+}
+.btn-container button{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border: none;
+    color: white;
+}
+
+
+.banner-image img{
+    width: 100%;
+}
+
+/* banner section end  */
