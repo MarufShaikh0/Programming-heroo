@@ -1,0 +1,296 @@
+
+
+/* Navbar section Srart */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1 a{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    /* text-align: left; */
+    text-decoration: none;
+}
+.navbar .nav-items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-items .nav-item{
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+/* Navbar section End */
+
+/*  banner section start  */
+.banner-section{
+    display: flex;
+    gap: 100px;
+    margin: 100px 0;
+    
+}
+
+.banner-content{
+    
+    
+}
+.banner-content .section-title{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.description{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btn-container{
+    background-color: rgb(224, 44, 109);
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    max-width: 120px;
+    padding: 10px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: center;
+}
+.btn-container button{
+    background-color: rgb(224, 44, 109);
+    border: none;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-container img{
+    width: 10%;
+    
+}
+
+
+.banner-section .banner-img-container{
+
+    background-image: url(./media/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.banner-image-container img{
+    width: 100%;
+}
+/*  banner section end  */
+
+/* company section start */
+.company-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    
+}
+/* company section end */
+
+/* card section start */
+.card-section .card-section-title{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px ;
+}
+
+.card-item{
+    width: 330px;
+    height: 475px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.card-item .iii{
+    width: 100%;
+}
+.card-item h3{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 6px 0;
+    
+}
+
+.card-item h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+.star-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.star-container p{
+    
+    color: rgb(94, 99, 102);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin: 5px 0;
+}
+.card-description{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    text-align: left;
+    max-width: 80%;
+    margin: 0;
+}
+
+.more-card{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.aaa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.more-card a{
+    color: red;
+    text-decoration: none; 
+}
+.more-card img{
+    width: 10px;
+    height: 5px;
+}
+/* card section end */
+
+/* last section start */
+.last-section{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+
+/* last section end */
+
+/* footer section start */
+.footer-section{
+    background-color: #0A0826;
+    
+}
+.footer-content{
+    text-align: center;
+    padding: 50px 0;
+   
+    
+}
+
+.footer-content h3{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    margin: 5px 0;
+    
+}
+
+.footer-content p{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 5px 0;
+    
+}
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Shared Style Start */
+.popins{
+    font-family: "Poppins", sans-serif;
+}
+
+body header{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+body main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+main section{
+    margin: 150px 0;
+}
+
+/*  Shared Style End */
